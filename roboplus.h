@@ -1,0 +1,23 @@
+#define P_GOAL_POSITION_L		30
+#define P_GOAL_POSITION_H		31
+#define P_GOAL_SPEED_L			32
+#define P_GOAL_SPEED_H			33
+#define P_GOAL_TORQUE_L			34
+#define P_GOAL_TORQUE_H			35
+#define P_PRESENT_POSITION_L	36
+#define P_PRESENT_POSITION_H	37
+#define P_MOVING				46
+
+void RPReady ();
+void RPForwardwalk ();
+void RPFastF ();
+void RPBackward ();
+void RPFastB ();
+void RPTurnRight ();
+void RPFastR ();
+void RPTurnLeft ();
+void RPFastL ();
+void RPSit ();
+void RPFear ();
+void RPAttackReady ();
+void RPAttackFront ();
